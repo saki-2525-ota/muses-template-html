@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSESログイン</title>
+  </head>
+  <body>
+    <img src="home.jpg"/></br>
+    ユーザー名</br><input /> </br>パスワード</br><input /></br>
+    <button>ログイン</button>
+    <button>▶PC版</button></br>
+    <a href="password.html">パスワードを忘れた方</a>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', async () => {
+        delete sessionStorage.username;
+        document.querySelector('input').value = '';
+      });
+
+      document.querySelector('button').addEventListener('click', () => {
+        const username = document.querySelector('input').value;
+        if (!username) {
+          window.alert('ユーザー名を入力してください');
+        } else {
+          sessionStorage.username = username;
+          location.href = 'index.html';
+        }
+      });
+    </script>
+  </body>
+</html>

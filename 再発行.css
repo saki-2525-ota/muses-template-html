@@ -1,0 +1,29 @@
+body {
+  background-color: #fffce8;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  max-width: 840px;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 40px auto 20px;
+}
+
+p {
+  font-weight: bold;
+  margin: 20px 0;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

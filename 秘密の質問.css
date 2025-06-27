@@ -1,0 +1,74 @@
+body {
+  background-color: #fffce8;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+.img img {
+  max-width: 280px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 40px auto 20px;
+}
+
+img {
+  display: block;
+  margin: 40px auto 20px;
+  height: auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+select {
+  padding: 10px;
+  margin: 10px 0 20px;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  z-index: 2;
+  position: relative;
+}
+
+input {
+  padding: 10px;
+  margin: 20px 0;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: #ccc;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  display: block;
+  margin: 10px 0;
+  color: #0044cc;
+  text-decoration: none;
+}
+
+.contact-box {
+  border: 1px solid orange;
+  background-color: #fff;
+  padding: 10px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 400px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -1,0 +1,34 @@
+{
+  "form": {
+    "fields": [
+      {
+        "label": "ユーザー名",
+        "type": "text",
+        "id": "username"
+      },
+      {
+        "label": "パスワード",
+        "type": "password",
+        "id": "password"
+      }
+    ],
+    "buttons": [
+      {
+        "label": "ログイン",
+        "id": "loginBtn",
+        "action": "login"
+      },
+      {
+        "label": "▶PC版",
+        "id": "loginBtn",
+        "action": "goPC"
+      }
+    ],
+    "extraLinks": [
+      {
+        "label": "パスワードを忘れた方",
+        "link": "password.html"
+      }
+    ]
+  }
+}

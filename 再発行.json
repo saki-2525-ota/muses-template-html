@@ -1,0 +1,8 @@
+{
+  "image": "home.jpg",
+  "message": "再発行パスワードをmwu@.jpに送信しました。",
+  "button": {
+    "label": "ログイン画面に戻る",
+    "link": "ログイン.html"
+  }
+}

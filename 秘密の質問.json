@@ -1,0 +1,24 @@
+{
+  "image": "home.jpg",
+  "question": {
+    "label": "秘密の質問を選択・回答してください",
+    "options": [
+      { "value": "mother", "label": "母親の旧姓" },
+      { "value": "school", "label": "出身の小学校" },
+      { "value": "birthday", "label": "誕生日" },
+      { "value": "dream", "label": "小さい頃の将来の夢" }
+    ]
+  },
+  "next": {
+    "href": "再発行.html"
+  },
+  "back": {
+    "label": "トップページへ戻る",
+    "href": "ログイン.html"
+  },
+  "contact": {
+    "text": "問い合わせ先",
+    "details": "武庫川女子大学　総合情報システム部（ICTヘルプデスク）",
+    "url": "https://diis.mukogawa-u.ac.jp/icthelpdesk/"
+  }
+}

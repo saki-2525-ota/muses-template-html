@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             alert('ユーザー名を入力してください');
           } else {
             sessionStorage.username = username;
-            location.href = 'https://muses.mukogawa-u.ac.jp/campusweb/campussmart.do?page=main';
+            location.href = 'index.html';
           }
         } else if (btn.action === 'goPC') {
           location.href = 'メニュー.html';
